@@ -10,4 +10,5 @@ Phase 1: Build logic to present cards and run timed test routine.
 Phase 2: Add test bank for 10 question quiz.
 
 Phase 3: Clean up presentation.
+    1) added card sections and some justification
 
