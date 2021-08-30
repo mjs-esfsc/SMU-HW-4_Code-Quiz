@@ -4,13 +4,15 @@ var testScore = 0;
 var highScore = 0;
 var timer;
 var timerCount;
+var subjectName ="";
+var nameInput = document.querySelector("#userName");
 
 
 function startTest() {
     console.log("started");
     testInProgress = true;
     // Prevents start button from being clicked when round is in progress
-  
+    localStorage.setItem
     if (testInProgress) {
       startButton.disabled = "true";
     }
@@ -30,13 +32,13 @@ function getHighScores(){
 
 // Calls init() so that it fires when page opened
 
-//TODO   startTimer function
+
 function startTimer(){
     console.log("timer started");
   // Sets timer
-  // TODO test timer
+   //TODO allow full 10 minutes
   timer = 10
-  //TODO check
+ 
   timerCount = setInterval(function () {
     if (timer > 0){
     timer--
